@@ -15,10 +15,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    background: linear-gradient(to right, black, white);
+
 
     .logo img{
         width: 60px;
-        z-index: -0.1;
+        border-radius: 10px;
     }
 
     li,a{
