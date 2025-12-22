@@ -1,0 +1,23 @@
+nav{
+    transition: all .1s ease-in-out;
+}
+
+nav:hover{
+    background: linear-gradient(to right, black, white);
+
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+nav li a{
+    transition:  all .5s ease-in-out;
+}
+
+nav li a:hover{
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius:5px;
+}
