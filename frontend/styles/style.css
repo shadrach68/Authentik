@@ -6,7 +6,11 @@
 }
 
 .wrapper{
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.body{
+    background: #000;
 }
 
 /* navbar */
@@ -43,20 +47,18 @@ nav{
 }
 
 
-.open{
-    display: none;
-    
-    span{
+.openn{
+        display: block;
         height: 2px;
         width: 20px;
         background: #000;
         cursor: pointer;
     }
-}
 
-.openn{
-    display: block;
-}
+
+/* .openn{
+    display: none;
+} */
 
 .line1{
     transform: rotate(40deg);
@@ -65,10 +67,7 @@ nav{
     transform: rotate(-40deg);
 }
 
-.close{
-   
-
-    span{
+.close span{
         display: block;
         height: 2px;
         width: 20px;
@@ -76,7 +75,6 @@ nav{
         margin-bottom: 3px;
         cursor: pointer;
     }
-}
 
 /* hero section */
 .hero-page{
