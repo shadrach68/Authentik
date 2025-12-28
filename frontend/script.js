@@ -1,12 +1,15 @@
+const open = document.getElementById("opener");
+const close = document.getElementById("closer");
+const menu = document.querySelector("nav ul");
 
-const close = document.getElementById("open");
-const open = document.getElementById("close")
-const line1 = document.getElementById("line1")
-const line2 = document.getElementById("line2")
+close.addEventListener("click", () => {
+  menu.classList.add("active");
+  open.style.display = "block";
+  close.style.display = "none";
+});
 
-open.addEventListener("click",()=>{
-    close.classList.toggle("openn")
-    line1.classList.toggle("line1")
-    line2.classList.toggle("line2")
-    // console.log(close.classList);
-})
+open.addEventListener("click", () => {
+  menu.classList.remove("active");
+  open.style.display = "none";
+  close.style.display = "block";
+});

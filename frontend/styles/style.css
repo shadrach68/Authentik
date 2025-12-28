@@ -6,7 +6,7 @@
 }
 
 .wrapper{
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .body{
@@ -46,35 +46,18 @@ nav{
     }
 }
 
-
-.openn{
-        display: block;
-        height: 2px;
-        width: 20px;
-        background: #000;
-        cursor: pointer;
-    }
-
-
-/* .openn{
+.dMenu{
     display: none;
-} */
 
-.line1{
-    transform: rotate(40deg);
-}
-.line2{
-    transform: rotate(-40deg);
-}
-
-.close span{
-        display: block;
-        height: 2px;
-        width: 20px;
-        background: #000;
-        margin-bottom: 3px;
-        cursor: pointer;
+    .bx-x{
+        display: none;
     }
+}
+
+
+
+
+
 
 /* hero section */
 .hero-page{
@@ -132,4 +115,15 @@ nav{
             color: #000;
         }
     }
+}
+
+/* Mobile Menu Toggles */
+#opener {
+    display: none;
+}
+nav.active #opener {
+    display: block;
+}
+nav.active #closer {
+    display: none;
 }

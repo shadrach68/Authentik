@@ -2,4 +2,22 @@
     nav ul{
         display: none;
     }
+    
+    .dMenu{
+        display: block;
+    }
+
+    /* #closer{
+        display: block;
+    } */
+
+   .active{
+    display: block;
+   }
+
+   .hide{
+    display: none;
+}
+
+
 }
